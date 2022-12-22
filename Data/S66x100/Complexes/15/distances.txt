@@ -1,0 +1,9 @@
+# Separation between subunits in Angstrom
+1.7725
+1.8710
+1.9693
+2.0679
+2.1664
+2.4618
+2.9541
+3.9387

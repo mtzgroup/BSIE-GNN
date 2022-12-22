@@ -1,0 +1,22 @@
+Extension of the S66x8 dataset to 100 complex geometries (S66x100).
+
+complexes.txt:
+    complex ids, complex species and interaction type
+
+relative_distances.txt:
+    Relative separation distance between subunits of complex
+
+Complexes/
+    Contains the geometries of subunits (A.xyz and B.xyz) and the
+    complex (C.xyz) for each of the 66 complexes.
+
+XYZ/
+    Individual xyz files for each geometry of the dataset. The file
+    XYZ/README explains how the files are indexed
+
+Energies/METHOD/BASIS_SET/
+    Contains the computed potential energies for the specific method and basis set
+    A.txt and B.txt: Energies of the subunits (shape=(66,))
+    C.txt: Energies of the complexes (shape=(66,100))
+    ie.txt: Interaction energies of the complexes (shape=(66,100))
+    All energies are in kcal/mol
